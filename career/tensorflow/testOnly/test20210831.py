@@ -95,7 +95,7 @@ parsed_dataset = dataset.map(decode_and_normalize)
 batch_size = 20
 
 parsed_dataset = parsed_dataset.batch(batch_size)
-#for i in parsed_dataset:
-    #print(i)
+for i in parsed_dataset:
+    print(i)
 # tensorflow.python.framework.errors_impl.UnimplementedError:
 # File system scheme 'hdfs' not implemented (file: 'hdfs://nameservice1/tmp/tfrecord-dnn/train/*.tfrecord')
