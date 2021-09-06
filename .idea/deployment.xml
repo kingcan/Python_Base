@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@10.10.63.212:22">
     <serverData>
       <paths name="root@10.10.63.181:22">
         <serverdata>
@@ -37,6 +37,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="root@10.10.63.182:22 (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="root@10.10.63.183:22">
         <serverdata>
           <mappings>
@@ -44,6 +51,14 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="root@10.10.63.212:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/testCode/bigdata/tensorflow/Python_Base" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
