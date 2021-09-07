@@ -26,3 +26,4 @@ a = np.array([('中国',  21,  50),('xyz',  18,  75)], dtype = student)
 print(a)#U代表的是Unicode编码
 print(a.itemsize)#字节大小
 print("中国必胜")
+
